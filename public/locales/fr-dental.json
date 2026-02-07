@@ -1,0 +1,275 @@
+{
+    "meta": {
+        "title": "Implants Dentaires en Turquie | Clinique Dentfix Istanbul",
+        "description": "Implants dentaires premium et réhabilitation buccale complète en Turquie. Spécialistes expérimentés, prix abordables, consultation gratuite. Clinique Dentfix Istanbul.",
+        "keywords": "implants dentaires turquie, clinique dentaire istanbul, hollywood smile turquie, facettes dentaires turquie, réhabilitation buccale complète, soins dentaires abordables turquie"
+    },
+    "header": {
+        "ctaMobile": "Consultation Gratuite",
+        "ctaDesktop": "Contactez-nous maintenant pour les traitements dentaires!"
+    },
+    "hero": {
+        "title": "Clinique Dentaire en Turquie",
+        "subtitle": "Améliorez votre sourire avec les",
+        "subtitleLine2": "services abordables de la Clinique Dentfix",
+        "formTitle": "Consultation Gratuite",
+        "formNamePlaceholder": "👤  Votre Nom",
+        "formEmailPlaceholder": "📧 Votre Email",
+        "formSubmit": "ENVOYER"
+    },
+    "beforeAfter": {
+        "title": "Voyez ces sourires",
+        "titleLine2": "Avant & Après",
+        "titleLine3": "Transformations",
+        "description": "Explorez les transformations naturelles réalisées grâce à notre expertise dentaire.",
+        "ctaButton": "Consultation Gratuite"
+    },
+    "contactForm": {
+        "title": "Obtenez votre consultation gratuite",
+        "subtitle": "Remplissez le formulaire et nous vous contacterons rapidement",
+        "namePlaceholder": "👤 Votre Nom",
+        "phonePlaceholder": "📞 Votre Téléphone",
+        "emailPlaceholder": "📧 Votre Email",
+        "submit": "ENVOYER"
+    },
+    "doctorInfo": {
+        "roles": {
+            "surgeon": {
+                "title": "Chirurgien",
+                "description": "Chirurgien Dentaire et Spécialiste des Implants"
+            },
+            "labTechnician": {
+                "title": "Technicien de Laboratoire",
+                "description": "Production prothétique de haute qualité dans notre laboratoire partenaire"
+            },
+            "author": {
+                "title": "Auteur",
+                "description": "Articles cliniques et études de cas dans des revues dentaires internationales"
+            }
+        },
+        "ctaTitle": "Planifiez votre parcours dentaire avec",
+        "ctaClinicName": "Clinique Dentaire Dentfix",
+        "freeConsultation": "Consultation Gratuite",
+        "or": "ou",
+        "whatsapp": "WhatsApp"
+    },
+    "faq": {
+        "title": "Questions Fréquemment Posées",
+        "questions": [
+            {
+                "question": "La marque de l'implant est-elle importante? L'implant a-t-il de la qualité?",
+                "answer": "Pour nos procédures dentaires, la Clinique Dentfix n'utilise que des produits premium comme Ivoclar Vivadent, Straumann et les Implants Nobel Biocare. Ces produits sont reconnus pour leur excellence, garantissant des résultats durables et bénéfiques pour nos patients."
+            },
+            {
+                "question": "Combien de temps dure un sourire Hollywood?",
+                "answer": "La durée d'un sourire Hollywood est déterminée par la durabilité des implants dentaires, couronnes ou facettes utilisés. Les facettes en porcelaine peuvent durer plus de 20 ans, tandis que les facettes en composite durent environ 10 ans."
+            },
+            {
+                "question": "Combien de temps durent les facettes dentaires?",
+                "answer": "Les facettes dentaires peuvent durer longtemps, surtout si elles sont bien adhérées à l'émail. Alors que les facettes en composite ont normalement une durée de vie de 7-10 ans, les facettes en porcelaine solides peuvent durer 20 ans ou plus."
+            },
+            {
+                "question": "Que fait une couronne dentaire?",
+                "answer": "Une couronne dentaire est une coiffe qui ressemble à une dent et peut être utilisée pour restaurer une dent cariée, endommagée, affaiblie ou usée. Les couronnes peuvent durer entre cinq et quinze ans."
+            },
+            {
+                "question": "L'implant est-il très douloureux?",
+                "answer": "Pendant la procédure d'implant dentaire, une anesthésie locale sera utilisée pour engourdir les nerfs autour de la zone de l'implant. Vous pouvez ressentir une certaine pression, mais ce n'est pas inconfortable."
+            },
+            {
+                "question": "Est-ce douloureux d'obtenir une couronne?",
+                "answer": "Puisque votre dentiste engourdira votre bouche avant de commencer tout traitement, la procédure ne devrait pas être inconfortable. Cela est vrai pour chaque étape de la procédure, du premier rendez-vous à l'ajustement final."
+            }
+        ]
+    },
+    "footer": {
+        "description": "Soins Dentaires Premium — Réhabilitation Buccale Complète et Spécialiste des Implants",
+        "copyright": "Copyright © 2026 Clinique Dentfix - Tous droits réservés",
+        "address": "19 Mayıs, Halaskargazi Cd. No:170, 34360 Şişli/İstanbul",
+        "email": "info@dentfixturkey.com",
+        "phone": "+90 549 680 73 72"
+    },
+    "hospitalHotel": {
+        "clinicBadge": "CLINIQUE",
+        "hotelBadge": "HÔTEL",
+        "clinicSubtitle": "Nos traitements dentaires sont effectués à",
+        "clinicName": "Clinique Dentaire Dentfix",
+        "hotelSubtitle": "Nos invités séjournent à",
+        "hotelName": "Istanbul Kailyn Hotel"
+    },
+    "packages": {
+        "title": "NOS FORFAITS",
+        "getMoreInfo": "Obtenir plus d'informations",
+        "dentalImplants": {
+            "title": "Implants Dentaires",
+            "features": [
+                "All On Four",
+                "All On Six",
+                "All On Eight",
+                "Three On Six",
+                "Implant Dentaire Bouche Complète"
+            ]
+        },
+        "dentalVeneers": {
+            "title": "Facettes Dentaires",
+            "features": [
+                "Facettes Composite",
+                "Facettes Porcelaine",
+                "Facettes E-max",
+                "Facettes Laminées",
+                "Facettes sans Préparation",
+                "Ensemble Complet de Facettes",
+                "Implant Dentaire Bouche Complète"
+            ]
+        },
+        "dentalCrowns": {
+            "title": "Couronnes Dentaires",
+            "features": [
+                "Couronnes Celtra",
+                "Couronnes E-max",
+                "Couronnes en Zirconium",
+                "Couronnes en Porcelaine",
+                "Ensemble Complet de Couronnes"
+            ]
+        }
+    },
+    "publications": {
+        "title": "Techniques Publiées",
+        "titleLine2": "et Études Cliniques",
+        "description": "Recherche clinique et rapports de cas soutenant des techniques avancées",
+        "descriptionLine2": "d'implants et de réhabilitation.",
+        "ctaButton": "Consultation Gratuite"
+    },
+    "rhinoplastyBeforeAfterYT": {
+        "title": "Transformations Dentaires: Résultats Avant & Après",
+        "subtitle": "Explorez les parcours des patients et les métamorphoses de sourires."
+    },
+    "stats": {
+        "operations": {
+            "value": "+20000",
+            "label": "Des milliers de réhabilitations dentaires réussies et de traitements d'implants réalisés"
+        },
+        "years": {
+            "value": "30+",
+            "label": "Années d'expérience dans les réhabilitations dentaires et les traitements d'implants"
+        },
+        "recommend": {
+            "value": "%95",
+            "label": "des patients recommandent Dentfix"
+        },
+        "satisfaction": {
+            "value": "%98",
+            "label": "Taux de satisfaction des patients après les procédures dentaires"
+        }
+    },
+    "testimonials": {
+        "title": "Histoires de patients de",
+        "titleLine1": "Histoires de patients de",
+        "titleLine2": "Transformation et",
+        "titleLine3": "Confiance",
+        "subtitle": "Nous aimons nos patients, mais ne nous croyez pas sur parole. Voyez ce qu'ils disent de nous!",
+        "ctaButton": "Commençons",
+        "patientLabel": "Patient",
+        "reviews": [
+            {
+                "text": "J'ai subi une réhabilitation buccale complète à la Clinique Dentfix. De la première consultation à la restauration finale, l'équipe a fourni des explications claires, un plan de traitement personnalisé et un suivi exceptionnel. Mes implants et prothèses ont l'air naturels, sont confortables et ont restauré ma confiance en mangeant et en souriant.",
+                "name": "Anna Müller",
+                "patient": "Patiente: Anna Müller",
+                "country": "DE"
+            },
+            {
+                "text": "Tout le processus s'est déroulé en douceur - diagnostics approfondis, délais réalistes et soutien postopératoire attentif. Les bridges sur implants ont rapidement restauré ma fonction masticatoire et le résultat esthétique a dépassé mes attentes.",
+                "name": "Hannah Schmidt",
+                "patient": "Patiente: Hannah Schmidt",
+                "country": "DE"
+            },
+            {
+                "text": "L'équipe de la Clinique Dentfix combine art et excellence clinique. Les restaurations sont précises et d'aspect naturel; l'occlusion est parfaite. L'équipe a assuré un minimum d'inconfort et a fourni des instructions claires de suivi.",
+                "name": "Emily Thompson",
+                "patient": "Patiente: Emily Thompson",
+                "country": "GB"
+            }
+        ]
+    },
+    "whyDoctor": {
+        "title": "Pourquoi choisir Dentfix",
+        "titleLine1": "Pourquoi choisir Dentfix",
+        "titleLine2": "Clinique pour la",
+        "titleLine3": "Réhabilitation Dentaire?",
+        "ctaButton": "Consultation Gratuite",
+        "features": {
+            "expertise": {
+                "label": "Expertise:",
+                "text": "Spécialisé en implantologie et réhabilitation buccale complète avec un focus sur la fonction et l'esthétique."
+            },
+            "personalized": {
+                "label": "Plans Personnalisés:",
+                "text": "Plans de traitement adaptés aux besoins cliniques et aux attentes de chaque patient."
+            },
+            "personalizedPlans": {
+                "label": "Plans Personnalisés:",
+                "text": "Plans de traitement adaptés aux besoins cliniques et aux attentes de chaque patient."
+            },
+            "modern": {
+                "label": "Flux de Travail Moderne:",
+                "text": "Diagnostics numériques et restaurations CAD/CAM pour des résultats prévisibles."
+            },
+            "modernWorkflow": {
+                "label": "Flux de Travail Moderne:",
+                "text": "Diagnostics numériques et restaurations CAD/CAM pour des résultats prévisibles."
+            },
+            "aftercare": {
+                "label": "Suivi:",
+                "text": "Suivi complet et soutien à vie pour votre santé dentaire."
+            }
+        }
+    },
+    "whyTurkey": {
+        "title": "Pourquoi choisir la Turquie pour votre traitement dentaire?",
+        "reasons": {
+            "affordable": {
+                "title": "Prix Abordables:",
+                "description": "La Turquie offre des traitements dentaires de haute qualité à des prix compétitifs par rapport à de nombreux pays européens."
+            },
+            "affordablePrices": {
+                "title": "Prix Abordables:",
+                "description": "La Turquie offre des traitements dentaires de haute qualité à des prix compétitifs par rapport à de nombreux pays européens."
+            },
+            "specialists": {
+                "title": "Spécialistes Expérimentés:",
+                "description": "Des implantologues expérimentés et des techniciens dentaires fournissent des résultats prévisibles et durables."
+            },
+            "experiencedSpecialists": {
+                "title": "Spécialistes Expérimentés:",
+                "description": "Des implantologues expérimentés et des techniciens dentaires fournissent des résultats prévisibles et durables."
+            },
+            "techniques": {
+                "title": "Techniques Avancées:",
+                "description": "Placement d'implants guidé par ordinateur, restaurations CAD/CAM et systèmes d'implants modernes assurent la précision."
+            },
+            "advancedTechniques": {
+                "title": "Techniques Avancées:",
+                "description": "Placement d'implants guidé par ordinateur, restaurations CAD/CAM et systèmes d'implants modernes assurent la précision."
+            },
+            "care": {
+                "title": "Soins Complets:",
+                "description": "Du diagnostic aux restaurations finales et au suivi, tout est planifié pour une expérience confortable."
+            },
+            "comprehensiveCare": {
+                "title": "Soins Complets:",
+                "description": "Du diagnostic aux restaurations finales et au suivi, tout est planifié pour une expérience confortable."
+            }
+        }
+    },
+    "thankYou": {
+        "title": "Merci",
+        "message": "Merci pour votre message. Nous vous répondrons dans les plus brefs délais.",
+        "backToHome": "Retour à l'accueil"
+    },
+    "cookieConsent": {
+        "title": "Cookie Preferences",
+        "description": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+        "accept": "Accept All",
+        "viewPreferences": "Preferences"
+    }
+}

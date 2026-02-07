@@ -1,0 +1,275 @@
+{
+    "meta": {
+        "title": "Zahnimplantate in der Türkei | Dentfix Klinik Istanbul",
+        "description": "Premium Zahnimplantate und vollständige Mundrehabilitation in der Türkei. Erfahrene Spezialisten, erschwingliche Preise, kostenlose Beratung. Dentfix Klinik Istanbul.",
+        "keywords": "zahnimplantate türkei, zahnklinik istanbul, hollywood smile türkei, zahnveneers türkei, vollständige mundrehabilitation, günstige zahnbehandlung türkei"
+    },
+    "header": {
+        "ctaMobile": "Kostenlose Beratung",
+        "ctaDesktop": "Kontaktieren Sie uns jetzt für Zahnbehandlungen!"
+    },
+    "hero": {
+        "title": "Zahnklinik in der Türkei",
+        "subtitle": "Verbessern Sie Ihr Lächeln mit den",
+        "subtitleLine2": "erschwinglichen Leistungen der Dentfix Klinik",
+        "formTitle": "Kostenlose Beratung",
+        "formNamePlaceholder": "Ihr Name",
+        "formEmailPlaceholder": "Ihre E-Mail",
+        "formSubmit": "ABSENDEN"
+    },
+    "beforeAfter": {
+        "title": "Sehen Sie diese Lächeln",
+        "titleLine2": "Vorher & Nachher",
+        "titleLine3": "Verwandlungen",
+        "description": "Entdecken Sie die natürlichen Verwandlungen, die durch unsere zahnmedizinische Expertise erreicht wurden.",
+        "ctaButton": "Kostenlose Beratung"
+    },
+    "contactForm": {
+        "title": "Holen Sie sich Ihre kostenlose Beratung",
+        "subtitle": "Füllen Sie das Formular aus und wir kontaktieren Sie in Kürze",
+        "namePlaceholder": "Ihr Name",
+        "phonePlaceholder": "Ihre Telefonnummer",
+        "emailPlaceholder": "Ihre E-Mail",
+        "submit": "ABSENDEN"
+    },
+    "doctorInfo": {
+        "roles": {
+            "surgeon": {
+                "title": "Chirurg",
+                "description": "Zahnarzt & Implantat-Spezialist"
+            },
+            "labTechnician": {
+                "title": "Zahntechniker",
+                "description": "Hochwertige Prothesenherstellung in unserem Partnerlabor"
+            },
+            "author": {
+                "title": "Autor",
+                "description": "Klinische Artikel und Fallstudien in internationalen Zahnfachzeitschriften"
+            }
+        },
+        "ctaTitle": "Planen Sie Ihre Zahnreise mit der",
+        "ctaClinicName": "Dentfix Zahnklinik",
+        "freeConsultation": "Kostenlose Beratung",
+        "or": "oder",
+        "whatsapp": "WhatsApp"
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "questions": [
+            {
+                "question": "Ist die Marke des Implantats wichtig? Hat das Implantat Qualität?",
+                "answer": "Für unsere Zahnbehandlungen verwendet die Dentfix Klinik ausschließlich Premium-Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind für ihre Exzellenz bekannt und garantieren langlebige und vorteilhafte Ergebnisse für unsere Patienten."
+            },
+            {
+                "question": "Wie lange hält ein Hollywood-Lächeln?",
+                "answer": "Die Dauer eines Hollywood-Lächelns wird durch die Haltbarkeit der verwendeten Zahnimplantate, Kronen oder Veneers bestimmt. Porzellan-Veneers können über 20 Jahre halten, während Komposit-Veneers etwa 10 Jahre halten."
+            },
+            {
+                "question": "Wie lange halten Zahnveneers?",
+                "answer": "Zahnveneers können lange Zeit halten, besonders wenn sie gut am Zahnschmelz befestigt sind. Während Komposit-Veneers normalerweise eine Lebensdauer von 7-10 Jahren haben, können starke Porzellan-Veneers 20 Jahre oder länger halten."
+            },
+            {
+                "question": "Was macht eine Zahnkrone?",
+                "answer": "Eine Zahnkrone ist eine Kappe, die einem Zahn ähnelt und verwendet werden kann, um einen kariösen, beschädigten, schwachen oder abgenutzten Zahn wiederherzustellen. Kronen können zwischen fünf und fünfzehn Jahre halten."
+            },
+            {
+                "question": "Ist das Implantat sehr schmerzhaft?",
+                "answer": "Während des Zahnimplantat-Eingriffs wird eine Lokalanästhesie verwendet, um die Nerven im Implantatbereich zu betäuben. Sie können etwas Druck spüren, aber es ist nicht unangenehm."
+            },
+            {
+                "question": "Ist es schmerzhaft, eine Krone zu bekommen?",
+                "answer": "Da Ihr Zahnarzt Ihren Mund vor Beginn der Behandlung betäubt, sollte der Eingriff nicht unangenehm sein. Dies gilt für jeden Schritt des Verfahrens, vom ersten Termin bis zur endgültigen Anpassung."
+            }
+        ]
+    },
+    "footer": {
+        "description": "Premium-Zahnpflege — Vollständige Mundrehabilitation und Implantat-Spezialist",
+        "copyright": "Copyright © 2026 Dentfix Klinik - Alle Rechte vorbehalten",
+        "address": "19 Mayıs, Halaskargazi Cd. No:170, 34360 Şişli/İstanbul",
+        "email": "info@dentfixturkey.com",
+        "phone": "+90 549 680 73 72"
+    },
+    "hospitalHotel": {
+        "clinicBadge": "KLINIK",
+        "hotelBadge": "HOTEL",
+        "clinicSubtitle": "Unsere Zahnbehandlungen werden durchgeführt in",
+        "clinicName": "Dentfix Zahnklinik",
+        "hotelSubtitle": "Unsere Gäste übernachten im",
+        "hotelName": "Istanbul Kailyn Hotel"
+    },
+    "packages": {
+        "title": "UNSERE PAKETE",
+        "getMoreInfo": "Mehr Informationen erhalten",
+        "dentalImplants": {
+            "title": "Zahnimplantate",
+            "features": [
+                "All On Four",
+                "All On Six",
+                "All On Eight",
+                "Three On Six",
+                "Vollmund-Zahnimplantat"
+            ]
+        },
+        "dentalVeneers": {
+            "title": "Zahnveneers",
+            "features": [
+                "Komposit-Veneers",
+                "Porzellan-Veneers",
+                "E-max Veneers",
+                "Laminat-Veneers",
+                "Präparationsfreie Veneers",
+                "Vollständige Veneers",
+                "Vollmund-Zahnimplantat"
+            ]
+        },
+        "dentalCrowns": {
+            "title": "Zahnkronen",
+            "features": [
+                "Celtra Kronen",
+                "E-max Kronen",
+                "Zirkonium Kronen",
+                "Porzellan Kronen",
+                "Vollständige Kronen"
+            ]
+        }
+    },
+    "publications": {
+        "title": "Veröffentlichte Techniken",
+        "titleLine2": "und klinische Studien",
+        "description": "Klinische Forschung und Fallberichte zur Unterstützung fortschrittlicher",
+        "descriptionLine2": "Implantat- und Rehabilitationstechniken.",
+        "ctaButton": "Kostenlose Beratung"
+    },
+    "rhinoplastyBeforeAfterYT": {
+        "title": "Zahnverwandlungen: Vorher & Nachher Ergebnisse",
+        "subtitle": "Entdecken Sie Patientenreisen und Lächeln-Makeovers."
+    },
+    "stats": {
+        "operations": {
+            "value": "+20000",
+            "label": "Tausende erfolgreiche Zahnrehabilitationen und Implantatbehandlungen abgeschlossen"
+        },
+        "years": {
+            "value": "30+",
+            "label": "Jahre Erfahrung in Zahnrehabilitationen und Implantatbehandlungen"
+        },
+        "recommend": {
+            "value": "%95",
+            "label": "der Patienten empfehlen Dentfix"
+        },
+        "satisfaction": {
+            "value": "%98",
+            "label": "Patientenzufriedenheitsrate nach Zahnbehandlungen"
+        }
+    },
+    "testimonials": {
+        "title": "Patientengeschichten von",
+        "titleLine1": "Patientengeschichten von",
+        "titleLine2": "Verwandlung und",
+        "titleLine3": "Selbstvertrauen",
+        "subtitle": "Wir lieben unsere Patienten, aber nehmen Sie nicht nur unser Wort dafür. Schauen Sie, was sie über uns sagen!",
+        "ctaButton": "Lassen Sie uns anfangen",
+        "patientLabel": "Patient",
+        "reviews": [
+            {
+                "text": "Ich habe eine vollständige Mundrehabilitation in der Dentfix Klinik durchgeführt. Von der ersten Beratung bis zur endgültigen Restauration bot das Team klare Erklärungen, einen personalisierten Behandlungsplan und hervorragende Nachsorge. Meine Implantate und Prothesen sehen natürlich aus, fühlen sich bequem an und haben mein Selbstvertrauen beim Essen und Lächeln wiederhergestellt.",
+                "name": "Anna Müller",
+                "patient": "Patientin: Anna Müller",
+                "country": "DE"
+            },
+            {
+                "text": "Der gesamte Prozess war reibungslos - gründliche Diagnostik, realistische Zeitpläne und aufmerksame postoperative Unterstützung. Die implantatgestützten Brücken stellten meine Kaufunktion schnell wieder her und das ästhetische Ergebnis übertraf meine Erwartungen.",
+                "name": "Hannah Schmidt",
+                "patient": "Patientin: Hannah Schmidt",
+                "country": "DE"
+            },
+            {
+                "text": "Das Dentfix Klinik-Team verbindet Kunstfertigkeit mit klinischer Exzellenz. Die Restaurationen sind präzise und natürlich aussehend; die Okklusion fühlt sich perfekt an. Das Team sorgte für minimale Beschwerden und gab klare Nachsorgeanweisungen.",
+                "name": "Emily Thompson",
+                "patient": "Patientin: Emily Thompson",
+                "country": "GB"
+            }
+        ]
+    },
+    "whyDoctor": {
+        "title": "Warum Dentfix wählen",
+        "titleLine1": "Warum Dentfix",
+        "titleLine2": "Klinik für Zahn-",
+        "titleLine3": "rehabilitation wählen?",
+        "ctaButton": "Kostenlose Beratung",
+        "features": {
+            "expertise": {
+                "label": "Expertise:",
+                "text": "Spezialisiert auf Implantologie und vollständige Mundrehabilitation mit Fokus auf Funktion und Ästhetik."
+            },
+            "personalized": {
+                "label": "Personalisierte Pläne:",
+                "text": "Behandlungspläne, die auf die klinischen Bedürfnisse und Erwartungen jedes Patienten zugeschnitten sind."
+            },
+            "personalizedPlans": {
+                "label": "Personalisierte Pläne:",
+                "text": "Behandlungspläne, die auf die klinischen Bedürfnisse und Erwartungen jedes Patienten zugeschnitten sind."
+            },
+            "modern": {
+                "label": "Moderner Arbeitsablauf:",
+                "text": "Digitale Diagnostik und CAD/CAM-Restaurationen für vorhersagbare Ergebnisse."
+            },
+            "modernWorkflow": {
+                "label": "Moderner Arbeitsablauf:",
+                "text": "Digitale Diagnostik und CAD/CAM-Restaurationen für vorhersagbare Ergebnisse."
+            },
+            "aftercare": {
+                "label": "Nachsorge:",
+                "text": "Umfassende Nachsorge und lebenslange Unterstützung für Ihre Zahngesundheit."
+            }
+        }
+    },
+    "whyTurkey": {
+        "title": "Warum die Türkei für Ihre Zahnbehandlung wählen?",
+        "reasons": {
+            "affordable": {
+                "title": "Erschwingliche Preise:",
+                "description": "Die Türkei bietet hochwertige Zahnbehandlungen zu wettbewerbsfähigen Preisen im Vergleich zu vielen europäischen Ländern."
+            },
+            "affordablePrices": {
+                "title": "Erschwingliche Preise:",
+                "description": "Die Türkei bietet hochwertige Zahnbehandlungen zu wettbewerbsfähigen Preisen im Vergleich zu vielen europäischen Ländern."
+            },
+            "specialists": {
+                "title": "Erfahrene Spezialisten:",
+                "description": "Erfahrene Implantologen und Zahntechniker liefern vorhersagbare und langanhaltende Ergebnisse."
+            },
+            "experiencedSpecialists": {
+                "title": "Erfahrene Spezialisten:",
+                "description": "Erfahrene Implantologen und Zahntechniker liefern vorhersagbare und langanhaltende Ergebnisse."
+            },
+            "techniques": {
+                "title": "Fortschrittliche Techniken:",
+                "description": "Computergestützte Implantatplatzierung, CAD/CAM-Restaurationen und moderne Implantatsysteme gewährleisten Präzision."
+            },
+            "advancedTechniques": {
+                "title": "Fortschrittliche Techniken:",
+                "description": "Computergestützte Implantatplatzierung, CAD/CAM-Restaurationen und moderne Implantatsysteme gewährleisten Präzision."
+            },
+            "care": {
+                "title": "Umfassende Betreuung:",
+                "description": "Von der Diagnostik bis zu den endgültigen Restaurationen und der Nachsorge – alles ist für ein komfortables Erlebnis geplant."
+            },
+            "comprehensiveCare": {
+                "title": "Umfassende Betreuung:",
+                "description": "Von der Diagnostik bis zu den endgültigen Restaurationen und der Nachsorge – alles ist für ein komfortables Erlebnis geplant."
+            }
+        }
+    },
+    "thankYou": {
+        "title": "Danke",
+        "message": "Vielen Dank für Ihre Nachricht. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "backToHome": "Zurück zur Startseite"
+    },
+    "cookieConsent": {
+        "title": "Cookie Preferences",
+        "description": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+        "accept": "Accept All",
+        "viewPreferences": "Preferences"
+    }
+}

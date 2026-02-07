@@ -1,0 +1,275 @@
+{
+    "meta": {
+        "title": "Impianti Dentali in Turchia | Clinica Dentfix Istanbul",
+        "description": "Impianti dentali premium e riabilitazione orale completa in Turchia. Specialisti esperti, prezzi accessibili, consulenza gratuita. Clinica Dentfix Istanbul.",
+        "keywords": "impianti dentali turchia, clinica dentale istanbul, hollywood smile turchia, faccette dentali turchia, riabilitazione orale completa, cure dentali accessibili turchia"
+    },
+    "header": {
+        "ctaMobile": "Consulenza Gratuita",
+        "ctaDesktop": "Contattaci ora per i trattamenti dentali!"
+    },
+    "hero": {
+        "title": "Clinica Dentale in Turchia",
+        "subtitle": "Migliora il tuo sorriso con i",
+        "subtitleLine2": "servizi convenienti della Clinica Dentfix",
+        "formTitle": "Consulenza Gratuita",
+        "formNamePlaceholder": "Il tuo nome",
+        "formEmailPlaceholder": "La tua email",
+        "formSubmit": "INVIARE"
+    },
+    "beforeAfter": {
+        "title": "Guarda questi sorrisi",
+        "titleLine2": "Prima e Dopo",
+        "titleLine3": "Trasformazioni",
+        "description": "Esplora le trasformazioni naturali ottenute attraverso la nostra competenza dentale.",
+        "ctaButton": "Consulenza Gratuita"
+    },
+    "contactForm": {
+        "title": "Ottieni la tua consulenza gratuita",
+        "subtitle": "Compila il modulo e ti contatteremo a breve",
+        "namePlaceholder": "Il tuo nome",
+        "phonePlaceholder": "Il tuo telefono",
+        "emailPlaceholder": "La tua email",
+        "submit": "INVIARE"
+    },
+    "doctorInfo": {
+        "roles": {
+            "surgeon": {
+                "title": "Chirurgo",
+                "description": "Chirurgo Dentale e Specialista in Impianti"
+            },
+            "labTechnician": {
+                "title": "Tecnico di Laboratorio",
+                "description": "Produzione protesica di alta qualità nel nostro laboratorio partner"
+            },
+            "author": {
+                "title": "Autore",
+                "description": "Articoli clinici e studi di casi in riviste dentali internazionali"
+            }
+        },
+        "ctaTitle": "Pianifica il tuo percorso dentale con",
+        "ctaClinicName": "Clinica Dentale Dentfix",
+        "freeConsultation": "Consulenza Gratuita",
+        "or": "o",
+        "whatsapp": "WhatsApp"
+    },
+    "faq": {
+        "title": "Domande Frequenti",
+        "questions": [
+            {
+                "question": "È importante la marca dell'impianto? L'impianto ha qualità?",
+                "answer": "Per le nostre procedure dentali, la Clinica Dentfix utilizza solo prodotti premium come Ivoclar Vivadent, Straumann e Impianti Nobel Biocare. Questi prodotti sono rinomati per la loro eccellenza, garantendo risultati duraturi e benefici per i nostri pazienti."
+            },
+            {
+                "question": "Quanto dura un sorriso Hollywood?",
+                "answer": "La durata di un sorriso Hollywood è determinata dalla durabilità degli impianti dentali, corone o faccette utilizzate. Le faccette in porcellana possono durare oltre 20 anni, mentre le faccette in composito durano circa 10 anni."
+            },
+            {
+                "question": "Quanto durano le faccette dentali?",
+                "answer": "Le faccette dentali possono durare a lungo, specialmente se sono ben aderite allo smalto. Mentre le faccette in composito normalmente hanno una durata di 7-10 anni, le faccette in porcellana resistenti possono durare 20 anni o più."
+            },
+            {
+                "question": "Cosa fa una corona dentale?",
+                "answer": "Una corona dentale è una copertura che assomiglia a un dente e può essere utilizzata per ripristinare un dente cariato, danneggiato, indebolito o usurato. Le corone possono durare tra i cinque e i quindici anni."
+            },
+            {
+                "question": "L'impianto è molto doloroso?",
+                "answer": "Durante la procedura di impianto dentale, verrà utilizzata l'anestesia locale per intorpidire i nervi intorno all'area dell'impianto. Potresti sentire una certa pressione, ma non è scomodo."
+            },
+            {
+                "question": "È doloroso ottenere una corona?",
+                "answer": "Poiché il tuo dentista intorpidirà la tua bocca prima di iniziare qualsiasi trattamento, la procedura non dovrebbe essere scomoda. Questo vale per ogni fase della procedura, dal primo appuntamento all'adattamento finale."
+            }
+        ]
+    },
+    "footer": {
+        "description": "Cure Dentali Premium — Riabilitazione Orale Completa e Specialista in Impianti",
+        "copyright": "Copyright © 2026 Clinica Dentfix - Tutti i diritti riservati",
+        "address": "19 Mayıs, Halaskargazi Cd. No:170, 34360 Şişli/İstanbul",
+        "email": "info@dentfixturkey.com",
+        "phone": "+90 549 680 73 72"
+    },
+    "hospitalHotel": {
+        "clinicBadge": "CLINICA",
+        "hotelBadge": "HOTEL",
+        "clinicSubtitle": "I nostri trattamenti dentali vengono eseguiti presso",
+        "clinicName": "Clinica Dentale Dentfix",
+        "hotelSubtitle": "I nostri ospiti soggiornano presso",
+        "hotelName": "Istanbul Milord Hotel"
+    },
+    "packages": {
+        "title": "I NOSTRI PACCHETTI",
+        "getMoreInfo": "Ottieni maggiori informazioni",
+        "dentalImplants": {
+            "title": "Impianti Dentali",
+            "features": [
+                "All On Four",
+                "All On Six",
+                "All On Eight",
+                "Three On Six",
+                "Impianto Dentale a Bocca Piena"
+            ]
+        },
+        "dentalVeneers": {
+            "title": "Faccette Dentali",
+            "features": [
+                "Faccette in Composito",
+                "Faccette in Porcellana",
+                "Faccette E-max",
+                "Faccette Laminate",
+                "Faccette senza Preparazione",
+                "Set Completo di Faccette",
+                "Impianto Dentale a Bocca Piena"
+            ]
+        },
+        "dentalCrowns": {
+            "title": "Corone Dentali",
+            "features": [
+                "Corone Celtra",
+                "Corone E-max",
+                "Corone in Zirconio",
+                "Corone in Porcellana",
+                "Set Completo di Corone"
+            ]
+        }
+    },
+    "publications": {
+        "title": "Tecniche Pubblicate",
+        "titleLine2": "e Studi Clinici",
+        "description": "Ricerca clinica e rapporti di casi a supporto di tecniche avanzate",
+        "descriptionLine2": "di impianti e riabilitazione.",
+        "ctaButton": "Consulenza Gratuita"
+    },
+    "rhinoplastyBeforeAfterYT": {
+        "title": "Trasformazioni Dentali: Risultati Prima e Dopo",
+        "subtitle": "Esplora i percorsi dei pazienti e i restyling del sorriso."
+    },
+    "stats": {
+        "operations": {
+            "value": "+20000",
+            "label": "Migliaia di riabilitazioni dentali di successo e trattamenti implantari completati"
+        },
+        "years": {
+            "value": "30+",
+            "label": "Anni di esperienza nelle riabilitazioni dentali e nei trattamenti implantari"
+        },
+        "recommend": {
+            "value": "%95",
+            "label": "dei pazienti raccomandano Dentfix"
+        },
+        "satisfaction": {
+            "value": "%98",
+            "label": "Tasso di soddisfazione dei pazienti dopo le procedure dentali"
+        }
+    },
+    "testimonials": {
+        "title": "Storie di pazienti di",
+        "titleLine1": "Storie di pazienti di",
+        "titleLine2": "Trasformazione e",
+        "titleLine3": "Fiducia",
+        "subtitle": "Amiamo i nostri pazienti, ma non credete solo a noi. Guardate cosa dicono di noi!",
+        "ctaButton": "Iniziamo",
+        "patientLabel": "Paziente",
+        "reviews": [
+            {
+                "text": "Ho subito una riabilitazione orale completa presso la Clinica Dentfix. Dalla prima consulenza al restauro finale, il team ha fornito spiegazioni chiare, un piano di trattamento personalizzato e un follow-up eccezionale. I miei impianti e le protesi sembrano naturali, sono confortevoli e hanno ripristinato la mia fiducia nel mangiare e sorridere.",
+                "name": "Anna Müller",
+                "patient": "Paziente: Anna Müller",
+                "country": "DE"
+            },
+            {
+                "text": "L'intero processo è stato fluido - diagnosi approfondite, tempistiche realistiche e supporto post-operatorio attento. I ponti su impianti hanno ripristinato rapidamente la mia funzione masticatoria e il risultato estetico ha superato le mie aspettative.",
+                "name": "Hannah Schmidt",
+                "patient": "Paziente: Hannah Schmidt",
+                "country": "DE"
+            },
+            {
+                "text": "Il team della Clinica Dentfix combina arte con eccellenza clinica. I restauri sono precisi e dall'aspetto naturale; l'occlusione è perfetta. Il team ha assicurato un disagio minimo e ha fornito istruzioni chiare per il post-cura.",
+                "name": "Emily Thompson",
+                "patient": "Paziente: Emily Thompson",
+                "country": "GB"
+            }
+        ]
+    },
+    "whyDoctor": {
+        "title": "Perché scegliere Dentfix",
+        "titleLine1": "Perché scegliere Dentfix",
+        "titleLine2": "Clinica per la",
+        "titleLine3": "Riabilitazione Dentale?",
+        "ctaButton": "Consulenza Gratuita",
+        "features": {
+            "expertise": {
+                "label": "Competenza:",
+                "text": "Specializzato in implantologia e riabilitazione orale completa con focus su funzione ed estetica."
+            },
+            "personalized": {
+                "label": "Piani Personalizzati:",
+                "text": "Piani di trattamento adattati alle esigenze cliniche e alle aspettative di ogni paziente."
+            },
+            "personalizedPlans": {
+                "label": "Piani Personalizzati:",
+                "text": "Piani di trattamento adattati alle esigenze cliniche e alle aspettative di ogni paziente."
+            },
+            "modern": {
+                "label": "Flusso di Lavoro Moderno:",
+                "text": "Diagnostica digitale e restauri CAD/CAM per risultati prevedibili."
+            },
+            "modernWorkflow": {
+                "label": "Flusso di Lavoro Moderno:",
+                "text": "Diagnostica digitale e restauri CAD/CAM per risultati prevedibili."
+            },
+            "aftercare": {
+                "label": "Post-cura:",
+                "text": "Follow-up completo e supporto a vita per la tua salute dentale."
+            }
+        }
+    },
+    "whyTurkey": {
+        "title": "Perché scegliere la Turchia per il tuo trattamento dentale?",
+        "reasons": {
+            "affordable": {
+                "title": "Prezzi Accessibili:",
+                "description": "La Turchia offre trattamenti dentali di alta qualità a prezzi competitivi rispetto a molti paesi europei."
+            },
+            "affordablePrices": {
+                "title": "Prezzi Accessibili:",
+                "description": "La Turchia offre trattamenti dentali di alta qualità a prezzi competitivi rispetto a molti paesi europei."
+            },
+            "specialists": {
+                "title": "Specialisti Esperti:",
+                "description": "Implantologi esperti e tecnici dentali forniscono risultati prevedibili e duraturi."
+            },
+            "experiencedSpecialists": {
+                "title": "Specialisti Esperti:",
+                "description": "Implantologi esperti e tecnici dentali forniscono risultati prevedibili e duraturi."
+            },
+            "techniques": {
+                "title": "Tecniche Avanzate:",
+                "description": "Posizionamento di impianti guidato dal computer, restauri CAD/CAM e sistemi di impianti moderni assicurano precisione."
+            },
+            "advancedTechniques": {
+                "title": "Tecniche Avanzate:",
+                "description": "Posizionamento di impianti guidato dal computer, restauri CAD/CAM e sistemi di impianti moderni assicurano precisione."
+            },
+            "care": {
+                "title": "Cure Complete:",
+                "description": "Dalla diagnosi ai restauri finali e al post-cura, tutto è pianificato per un'esperienza confortevole."
+            },
+            "comprehensiveCare": {
+                "title": "Cure Complete:",
+                "description": "Dalla diagnosi ai restauri finali e al post-cura, tutto è pianificato per un'esperienza confortevole."
+            }
+        }
+    },
+    "thankYou": {
+        "title": "Grazie",
+        "message": "Grazie per il tuo messaggio. Ti risponderemo il prima possibile.",
+        "backToHome": "Torna alla home"
+    },
+    "cookieConsent": {
+        "title": "Cookie Preferences",
+        "description": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+        "accept": "Accept All",
+        "viewPreferences": "Preferences"
+    }
+}
