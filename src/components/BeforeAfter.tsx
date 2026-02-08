@@ -5,14 +5,19 @@ import { useState, useEffect } from "react"; // useEffect eklendi
 import { useTranslation } from "@/lib/i18n";
 
 const beforeAfterImages = [
-  "/images/before-after/1.png",
-  "/images/before-after/2.png",
-  "/images/before-after/3.png",
-  "/images/before-after/4.png",
-  "/images/before-after/5.png",
-  "/images/before-after/6.png",
-  "/images/before-after/7.png",
-  "/images/before-after/8.png",
+  "/images/before-after/ba-1.webp",
+  "/images/before-after/ba-2.webp",
+  "/images/before-after/ba-3.webp",
+  "/images/before-after/ba-4.webp",
+  "/images/before-after/ba-5.webp",
+  "/images/before-after/ba-6.webp",
+  "/images/before-after/ba-7.webp",
+  "/images/before-after/ba-8.webp",
+  "/images/before-after/ba-9.webp",
+  "/images/before-after/ba-10.webp",
+  "/images/before-after/ba-11.webp",
+  "/images/before-after/ba-12.webp",
+  "/images/before-after/ba-13.webp",
 ];
 
 export default function BeforeAfter() {

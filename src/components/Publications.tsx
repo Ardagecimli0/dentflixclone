@@ -56,8 +56,8 @@ export default function Publications() {
           {/* Sağ Görsel Alanı - Mobilde altta kalır ve yükseklik alır */}
           <div className="relative h-[350px] md:h-[500px] lg:h-auto w-full group overflow-hidden order-2 lg:order-2">
             <Image
-              src="/images/aaa.webp"
-              alt="CevreDent Clinic"
+              src="/images/dentfix.jpeg"
+              alt="Published Techniques and Clinical Studies"
               fill
               className="object-cover object-center transition-transform duration-700 ease-in-out group-hover:scale-110"
               sizes="(max-width: 1024px) 100vw, 50vw"

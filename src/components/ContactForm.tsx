@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
+import CountrySelect from "./CountrySelect";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -10,6 +11,27 @@ export default function ContactForm() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const { t } = useTranslation();
+
+  useEffect(() => {
+    // URL slug'ına göre ülke kodunu otomatik seçer
+    if (typeof window !== 'undefined') {
+      const currentPath = window.location.pathname;
+      const slug = currentPath.split('/').filter(Boolean)[0];
+
+      const slugToCountry: Record<string, string> = {
+        'dental-implant-in-turkey': '+44', // UK default for English
+        'dis-implanti-turkiye': '+90',    // Turkey
+        'zahnimplantat-in-der-turkei': '+49', // Germany
+        'implante-dental-en-turquia': '+34',  // Spain
+        'implant-dentaire-en-turquie': '+33', // France
+        'impianto-dentale-in-turchia': '+39', // Italy
+      };
+
+      if (slug && slugToCountry[slug]) {
+        setCountryCode(slugToCountry[slug]);
+      }
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -69,17 +91,12 @@ export default function ContactForm() {
                   />
 
                   <div className="flex gap-3">
-                    <select
+                    <CountrySelect
                       value={countryCode}
-                      onChange={(e) => setCountryCode(e.target.value)}
-                      className="w-32 px-4 py-4 rounded-2xl bg-[#0c1015] border border-gray-700 text-white outline-none cursor-pointer appearance-none"
-                      style={{ backgroundImage: "url('data:image/svg+xml;charset=UTF-8,%3csvg width=%2712%27 height=%278%27 viewBox=%270 0 12 8%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M1 1L6 6L11 1%27 stroke=%27%236b7280%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3e%3c/svg%3e')", backgroundPosition: 'right 1rem center', backgroundRepeat: 'no-repeat' }}
-                    >
-                      <option value="+90">🇹🇷 +90</option>
-                      <option value="+44">🇬🇧 +44</option>
-                      <option value="+49">🇩🇪 +49</option>
-                      <option value="+1">🇺🇸 +1</option>
-                    </select>
+                      onChange={(val: string) => setCountryCode(val)}
+                      className="w-32 px-4 py-4 rounded-2xl bg-[#0c1015] border border-gray-700 text-white outline-none"
+                      dropdownClassName="bg-[#0c1015] border border-gray-700"
+                    />
                     <input
                       type="tel"
                       placeholder="Phone Number"
@@ -109,7 +126,7 @@ export default function ContactForm() {
               </form>
             </div>
 
-            {/* Sağ Taraf - Görsel: Referanstaki gibi tam duran ve ekstra oval yapı */}
+            {/* Sağ Taraf - Görsel */}
             <div className="order-1 lg:order-2 w-full">
               <div className="relative w-full aspect-[4/3] rounded-[3rem] md:rounded-[4rem] overflow-hidden border-2 border-gray-700/20 shadow-2xl bg-[#1c2530] group">
                 <Image
@@ -119,7 +136,6 @@ export default function ContactForm() {
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                   priority
                 />
-                {/* Referanstaki premium derinlik hissi için hafif degrade */}
                 <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-transparent to-transparent pointer-events-none" />
               </div>
             </div>

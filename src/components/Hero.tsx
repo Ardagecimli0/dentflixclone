@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
+import CountrySelect from "./CountrySelect";
 
 export default function Hero() {
   const [name, setName] = useState("");
@@ -15,6 +16,25 @@ export default function Hero() {
 
   useEffect(() => {
     setIsVisible(true);
+
+    // Auto-select country based on URL slug
+    if (typeof window !== 'undefined') {
+      const currentPath = window.location.pathname;
+      const slug = currentPath.split('/').filter(Boolean)[0];
+
+      const slugToCountry: Record<string, string> = {
+        'dental-implant-in-turkey': '+44', // UK default for English
+        'dis-implanti-turkiye': '+90', // Turkey
+        'zahnimplantat-in-der-turkei': '+49', // Germany
+        'implante-dental-en-turquia': '+34', // Spain
+        'implant-dentaire-en-turquie': '+33', // France
+        'impianto-dentale-in-turchia': '+39', // Italy
+      };
+
+      if (slug && slugToCountry[slug]) {
+        setCountryCode(slugToCountry[slug]);
+      }
+    }
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -203,29 +223,12 @@ export default function Hero() {
                   />
                 </div>
                 <div className="flex gap-2">
-                  <select
+                  <CountrySelect
                     value={countryCode}
-                    onChange={(e) => setCountryCode(e.target.value)}
-                    style={{ backgroundImage: "url('data:image/svg+xml;charset=UTF-8,%3csvg width=%2712%27 height=%278%27 viewBox=%270 0 12 8%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M1 1L6 6L11 1%27 stroke=%27white%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3e%3c/svg%3e')", backgroundPosition: 'right 0.5rem center', backgroundRepeat: 'no-repeat' }}
-                    className="w-28 px-3 py-3 pr-8 rounded-lg bg-[#1c2530] border border-gray-600 text-white focus:border-[#25D366] outline-none appearance-none"
-                  >
-                    <option value="+90">🇹🇷 +90</option>
-                    <option value="+1">🇺🇸 +1</option>
-                    <option value="+44">🇬🇧 +44</option>
-                    <option value="+49">🇩🇪 +49</option>
-                    <option value="+33">🇫🇷 +33</option>
-                    <option value="+39">🇮🇹 +39</option>
-                    <option value="+34">🇪🇸 +34</option>
-                    <option value="+31">🇳🇱 +31</option>
-                    <option value="+46">🇸🇪 +46</option>
-                    <option value="+47">🇳🇴 +47</option>
-                    <option value="+45">🇩🇰 +45</option>
-                    <option value="+41">🇨🇭 +41</option>
-                    <option value="+43">🇦🇹 +43</option>
-                    <option value="+32">🇧🇪 +32</option>
-                    <option value="+971">🇦🇪 +971</option>
-                    <option value="+966">🇸🇦 +966</option>
-                  </select>
+                    onChange={(val: string) => setCountryCode(val)}
+                    className="w-28 px-3 py-3 rounded-lg bg-[#1c2530] border border-gray-600 text-white focus:border-[#25D366] outline-none"
+                    dropdownClassName="bg-[#1c2530] border border-gray-600"
+                  />
                   <div className="flex-1 relative">
                     <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
