@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
 import CountrySelect from "./CountrySelect";
 import { validatePhone, getMaxDigits } from "@/lib/phoneValidation";
+import { fetchCountryByIP } from "@/lib/geoip";
 
 export default function Hero() {
   const [name, setName] = useState("");
@@ -14,31 +15,20 @@ export default function Hero() {
   const [phoneError, setPhoneError] = useState("");
   const [phoneTouched, setPhoneTouched] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [userIp, setUserIp] = useState("");
   const { t } = useTranslation();
 
 
   useEffect(() => {
     setIsVisible(true);
 
-    // Auto-select country based on URL slug
-    if (typeof window !== 'undefined') {
-      const currentPath = window.location.pathname;
-      const slug = currentPath.split('/').filter(Boolean)[0];
-
-      const slugToCountry: Record<string, string> = {
-        'dental-implant-in-turkey': '+44', // UK default for English
-        'dis-implanti-turkiye': '+90', // Turkey
-        'zahnimplantat-in-der-turkei': '+49', // Germany
-        'implante-dental-en-turquia': '+34', // Spain
-        'implant-dentaire-en-turquie': '+33', // France
-        'impianto-dentale-in-turchia': '+39', // Italy
-        'implant-stomatologiczny-w-turcji': '+48', // Poland
-      };
-
-      if (slug && slugToCountry[slug]) {
-        setCountryCode(slugToCountry[slug]);
+    // Fetch country from IP geolocation (overrides slug-based default)
+    fetchCountryByIP().then((result) => {
+      if (result) {
+        setCountryCode(result.dialCode);
+        setUserIp(result.ip);
       }
-    }
+    });
   }, []);
 
   // Validate phone whenever phone or countryCode changes
@@ -116,7 +106,7 @@ export default function Hero() {
         lead_source: "Google/Web Form",
         language: locale.toUpperCase(),
         source_language: locale.toUpperCase(),
-        ip: "",
+        ip: userIp,
         doctor: "DentFix",
         interest: ["Dental"],
         procedure: [],
@@ -187,7 +177,7 @@ export default function Hero() {
         {/* Mobile Title Section (Visible only on mobile/tablet) */}
         <div className="lg:hidden text-center mb-1">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-            Dental Clinic in<br />Turkey
+            {t('hero.title')}
           </h1>
         </div>
 
@@ -239,7 +229,7 @@ export default function Hero() {
           <div className="lg:col-span-5 space-y-6">
             <div className="text-center lg:text-left">
               <h1 className="hidden lg:block text-4xl md:text-5xl lg:text-[50px] font-bold text-white mb-4 leading-tight">
-                Dental Clinic in<br />Turkey
+                {t('hero.title')}
               </h1>
               <p className="text-[#b08d57] text-xl md:text-2xl font-bold leading-snug">
                 {t('hero.subtitle')}<br />

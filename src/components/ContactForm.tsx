@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
 import CountrySelect from "./CountrySelect";
 import { validatePhone, getMaxDigits } from "@/lib/phoneValidation";
+import { fetchCountryByIP } from "@/lib/geoip";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -13,28 +14,17 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [phoneError, setPhoneError] = useState("");
   const [phoneTouched, setPhoneTouched] = useState(false);
+  const [userIp, setUserIp] = useState("");
   const { t } = useTranslation();
 
   useEffect(() => {
-    // URL slug'ına göre ülke kodunu otomatik seçer
-    if (typeof window !== 'undefined') {
-      const currentPath = window.location.pathname;
-      const slug = currentPath.split('/').filter(Boolean)[0];
-
-      const slugToCountry: Record<string, string> = {
-        'dental-implant-in-turkey': '+44', // UK default for English
-        'dis-implanti-turkiye': '+90',    // Turkey
-        'zahnimplantat-in-der-turkei': '+49', // Germany
-        'implante-dental-en-turquia': '+34',  // Spain
-        'implant-dentaire-en-turquie': '+33', // France
-        'impianto-dentale-in-turchia': '+39', // Italy
-        'implant-stomatologiczny-w-turcji': '+48', // Poland
-      };
-
-      if (slug && slugToCountry[slug]) {
-        setCountryCode(slugToCountry[slug]);
+    // Fetch country from IP geolocation
+    fetchCountryByIP().then((result) => {
+      if (result) {
+        setCountryCode(result.dialCode);
+        setUserIp(result.ip);
       }
-    }
+    });
   }, []);
 
   // Validate phone whenever phone or countryCode changes
