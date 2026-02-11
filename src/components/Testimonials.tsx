@@ -27,7 +27,7 @@ export default function Testimonials() {
               <div className="absolute -inset-1 bg-[#22c55e] rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
 
               <a
-                href="https://wa.me/dentfix"
+                href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative flex items-center justify-center w-full bg-[#22c55e] hover:bg-[#1da850] text-white text-center py-3.5 rounded-lg font-bold text-base transition-all duration-300 hover:-translate-y-2 active:translate-y-0 shadow-xl"

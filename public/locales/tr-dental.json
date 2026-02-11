@@ -271,5 +271,11 @@
         "description": "Tarama deneyiminizi geliştirmek, kişiselleştirilmiş reklamlar veya içerik sunmak ve trafiğimizi analiz etmek için çerezleri kullanıyoruz. \"Tümünü Kabul Et\"e tıklayarak çerez kullanımımıza izin vermiş olursunuz.",
         "accept": "Tümünü Kabul Et",
         "viewPreferences": "Tercihler"
+    },
+    "phoneValidation": {
+        "invalid": "Lütfen geçerli bir telefon numarası girin",
+        "tooShort": "Telefon numarası çok kısa",
+        "tooLong": "Telefon numarası çok uzun",
+        "invalidPrefix": "Telefon numarası formatı bu ülke için geçersiz"
     }
 }

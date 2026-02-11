@@ -42,7 +42,7 @@ export default function Packages() {
                   {pkg.features.map((feature, i) => (
                     <li key={i}>
                       <a
-                        href="https://wa.me/dentfix"
+                        href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-start gap-3 text-gray-300 text-sm hover:text-white transition-all cursor-pointer underline underline-offset-4 decoration-[#c9a96e]/40 hover:decoration-[#c9a96e]"
@@ -54,7 +54,7 @@ export default function Packages() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/dentfix"
+                  href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#22c55e] hover:bg-[#1da850] py-4 px-6 rounded-full text-white font-bold text-center flex items-center justify-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg"

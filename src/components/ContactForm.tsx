@@ -4,12 +4,15 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
 import CountrySelect from "./CountrySelect";
+import { validatePhone, getMaxDigits } from "@/lib/phoneValidation";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [countryCode, setCountryCode] = useState("+90");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [phoneTouched, setPhoneTouched] = useState(false);
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -25,6 +28,7 @@ export default function ContactForm() {
         'implante-dental-en-turquia': '+34',  // Spain
         'implant-dentaire-en-turquie': '+33', // France
         'impianto-dentale-in-turchia': '+39', // Italy
+        'implant-stomatologiczny-w-turcji': '+48', // Poland
       };
 
       if (slug && slugToCountry[slug]) {
@@ -33,20 +37,65 @@ export default function ContactForm() {
     }
   }, []);
 
+  // Validate phone whenever phone or countryCode changes
+  useEffect(() => {
+    if (phoneTouched && phone.length > 0) {
+      const result = validatePhone(countryCode, phone);
+      setPhoneError(result.valid ? '' : result.error);
+    } else {
+      setPhoneError('');
+    }
+  }, [phone, countryCode, phoneTouched]);
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.replace(/[^0-9]/g, ''); // only digits
+    setPhone(value);
+    if (!phoneTouched) setPhoneTouched(true);
+  };
+
+  const handleCountryCodeChange = (val: string) => {
+    setCountryCode(val);
+    if (phone.length > 0) {
+      const result = validatePhone(val, phone);
+      setPhoneError(result.valid ? '' : result.error);
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Validate phone before submit
+    const phoneResult = validatePhone(countryCode, phone);
+    if (!phoneResult.valid) {
+      setPhoneError(phoneResult.error);
+      setPhoneTouched(true);
+      return;
+    }
+
     try {
       const currentPath = window.location.pathname;
       const slug = currentPath.split('/').filter(Boolean)[0] || 'dental-implant-in-turkey';
+
+      const slugToLocale: Record<string, string> = {
+        'dental-implant-in-turkey': 'en',
+        'dis-implanti-turkiye': 'tr',
+        'zahnimplantat-in-der-turkei': 'de',
+        'implante-dental-en-turquia': 'es',
+        'implant-dentaire-en-turquie': 'fr',
+        'impianto-dentale-in-turchia': 'it',
+        'implant-stomatologiczny-w-turcji': 'pl',
+      };
+
+      const locale = slugToLocale[slug] || 'en';
 
       const payload = {
         name,
         phone: `${countryCode}${phone}`,
         email,
         lead_source: "Google/Web Form",
-        language: "EN",
-        doctor: "Cevre Dent",
-        lead_source_detail: "Cevredent Turkey Web App",
+        language: locale.toUpperCase(),
+        doctor: "DentFix",
+        lead_source_detail: "",
       };
 
       const response = await fetch(`https://zoho.hotelistan.net/api/form-patient`, {
@@ -60,6 +109,10 @@ export default function ContactForm() {
       console.error("API Error:", error);
     }
   };
+
+  const phoneInputBorder = phoneError && phoneTouched
+    ? 'border-red-500 focus:border-red-500'
+    : 'border-gray-700 focus:border-[#25D366]';
 
   return (
     <section id="contact" className="py-20 bg-[#0c1015] scroll-mt-20">
@@ -90,21 +143,27 @@ export default function ContactForm() {
                     required
                   />
 
-                  <div className="flex gap-3">
-                    <CountrySelect
-                      value={countryCode}
-                      onChange={(val: string) => setCountryCode(val)}
-                      className="w-32 px-4 py-4 rounded-2xl bg-[#0c1015] border border-gray-700 text-white outline-none"
-                      dropdownClassName="bg-[#0c1015] border border-gray-700"
-                    />
-                    <input
-                      type="tel"
-                      placeholder="Phone Number"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      className="flex-1 px-6 py-4 rounded-2xl bg-[#0c1015] border border-gray-700 text-white focus:border-[#25D366] outline-none"
-                      required
-                    />
+                  <div>
+                    <div className="flex gap-3">
+                      <CountrySelect
+                        value={countryCode}
+                        onChange={handleCountryCodeChange}
+                        className="w-32 px-4 py-4 rounded-2xl bg-[#0c1015] border border-gray-700 text-white outline-none"
+                        dropdownClassName="bg-[#0c1015] border border-gray-700"
+                      />
+                      <input
+                        type="tel"
+                        placeholder={t('contactForm.phonePlaceholder')}
+                        value={phone}
+                        onChange={handlePhoneChange}
+                        maxLength={getMaxDigits(countryCode)}
+                        className={`flex-1 px-6 py-4 rounded-2xl bg-[#0c1015] border ${phoneInputBorder} text-white outline-none transition-colors`}
+                        required
+                      />
+                    </div>
+                    {phoneError && phoneTouched && (
+                      <p className="text-red-400 text-sm mt-1 ml-1">{t(phoneError)}</p>
+                    )}
                   </div>
 
                   <input

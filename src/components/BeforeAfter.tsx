@@ -116,7 +116,7 @@ export default function BeforeAfter() {
 
             <div className="mt-8">
               <a
-                href="https://wa.me/dentfix"
+                href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#22c55e] px-8 py-4 rounded-full text-white font-bold hover:scale-105 transition-transform shadow-lg"

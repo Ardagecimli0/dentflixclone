@@ -82,7 +82,7 @@ export default function DoctorInfo() {
             </a>
             <span className="text-gray-400 text-sm">{t('doctorInfo.or')}</span>
             <a
-              href="https://wa.me/dentfix"
+              href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 w-full max-w-xs px-8 py-4 rounded-full border-2 border-[#25D366] text-[#25D366] font-semibold hover:bg-[#25D366]/10 transition active:scale-95"
@@ -111,7 +111,7 @@ export default function DoctorInfo() {
             </a>
             <span className="flex items-center text-gray-400">{t('doctorInfo.or')}</span>
             <a
-              href="https://wa.me/dentfix"
+              href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#25D366] text-[#25D366] font-semibold hover:bg-[#25D366]/10 transition active:scale-95"

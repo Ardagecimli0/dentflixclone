@@ -271,5 +271,11 @@
         "description": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
         "accept": "Accept All",
         "viewPreferences": "Preferences"
+    },
+    "phoneValidation": {
+        "invalid": "Inserisci un numero di telefono valido",
+        "tooShort": "Il numero di telefono è troppo corto",
+        "tooLong": "Il numero di telefono è troppo lungo",
+        "invalidPrefix": "Il formato del numero di telefono non è valido per questo paese"
     }
 }

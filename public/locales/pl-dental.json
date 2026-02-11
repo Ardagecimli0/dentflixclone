@@ -1,0 +1,281 @@
+{
+    "meta": {
+        "title": "Implanty stomatologiczne w Turcji | Dentfix Clinic Stambuł",
+        "description": "Najwyższej jakości implanty dentystyczne i pełna rehabilitacja jamy ustnej w Turcji. Doświadczeni specjaliści, przystępne ceny, bezpłatna konsultacja. Dentfix Clinic Stambuł.",
+        "keywords": "implanty stomatologiczne turcja, klinika stomatologiczna stambuł, hollywood smile turcja, licówki stomatologiczne turcja, pełna rehabilitacja jamy ustnej, tania stomatologia turcja"
+    },
+    "header": {
+        "ctaMobile": "Bezpłatna konsultacja",
+        "ctaDesktop": "Skontaktuj się z nami w sprawie leczenia!"
+    },
+    "hero": {
+        "title": "Klinika stomatologiczna w Turcji",
+        "subtitle": "Popraw swój uśmiech z Dentfix",
+        "subtitleLine2": "Przystępne usługi kliniki",
+        "formTitle": "Bezpłatna konsultacja",
+        "formNamePlaceholder": "Twoje imię",
+        "formEmailPlaceholder": "Twój e-mail",
+        "formSubmit": "WYŚLIJ"
+    },
+    "beforeAfter": {
+        "title": "Zobacz te uśmiechy",
+        "titleLine2": "Metamorfozy",
+        "titleLine3": "Przed i Po",
+        "description": "Poznaj naturalne efekty osiągnięte dzięki naszej wiedzy stomatologicznej.",
+        "ctaButton": "Bezpłatna konsultacja"
+    },
+    "contactForm": {
+        "title": "Uzyskaj bezpłatną konsultację",
+        "subtitle": "Wypełnij formularz, a wkrótce się z Tobą skontaktujemy",
+        "namePlaceholder": "Twoje imię",
+        "phonePlaceholder": "Twój telefon",
+        "emailPlaceholder": "Twój e-mail",
+        "submit": "WYŚLIJ"
+    },
+    "doctorInfo": {
+        "roles": {
+            "surgeon": {
+                "title": "Chirurg",
+                "description": "Chirurg stomatolog i specjalista implantolog"
+            },
+            "labTechnician": {
+                "title": "Technik laboratoryjny",
+                "description": "Wysokiej jakości protetyka wykonywana w naszym laboratorium partnerskim"
+            },
+            "author": {
+                "title": "Autor",
+                "description": "Artykuły kliniczne i studia przypadków w międzynarodowych czasopismach stomatologicznych"
+            }
+        },
+        "ctaTitle": "Zaplanuj swoją dentystyczną podróż z",
+        "ctaClinicName": "Klinika Stomatologiczna Dentfix",
+        "freeConsultation": "Bezpłatna konsultacja",
+        "or": "lub",
+        "whatsapp": "WhatsApp"
+    },
+    "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "questions": [
+            {
+                "question": "Czy marka implantu jest ważna? Czy implanty mają różną jakość?",
+                "answer": "W naszych procedurach Dentfix Clinic korzysta wyłącznie z produktów premium, takich jak Ivoclar Vivadent, Straumann i Nobel Biocare. Produkty te są znane ze swojej doskonałości, co zapewnia naszym pacjentom trwałe i korzystne rezultaty. Nasze oddanie dostarczaniu najwyższej jakości opieki znajduje odzwierciedlenie w wyborze tych topowych marek. Dodatkowe informacje można znaleźć w European Journal of Dentistry, renomowanym źródle badań stomatologicznych."
+            },
+            {
+                "question": "Jak długo utrzymuje się efekt Hollywood smile?",
+                "answer": "Trwałość Hollywood smile zależy od wytrzymałości użytych implantów, koron lub licówek. Licówki porcelanowe mogą służyć ponad 20 lat, podczas gdy licówki kompozytowe wytrzymują około 10 lat."
+            },
+            {
+                "question": "Jak długo wytrzymują licówki stomatologiczne?",
+                "answer": "Licówki mogą służyć przez długi czas, zwłaszcza jeśli są dobrze przyklejone do szkliwa. Podczas gdy licówki kompozytowe mają zazwyczaj żywotność 7–10 lat, mocne licówki porcelanowe mogą przetrwać 20 lat lub nawet dłużej."
+            },
+            {
+                "question": "Do czego służy korona dentystyczna?",
+                "answer": "Korona dentystyczna to nakładka przypominająca ząb, która służy do odbudowy zęba zniszczonego, uszkodzonego, osłabionego lub startego. Ponadto specjaliści mogą nakładać korony na zęby po leczeniu kanałowym oraz na implanty. Korony wytrzymują od pięciu do piętnastu lat."
+            },
+            {
+                "question": "Czy wszczepienie implantu jest bardzo bolesne?",
+                "answer": "Podczas zabiegu implantacji stosowane jest znieczulenie miejscowe, aby znieczulić nerwy wokół obszaru zabiegu. Dzięki temu nie odczujesz żadnego bólu. Możesz odczuwać pewien ucisk, ale nie jest on niekomfortowy."
+            },
+            {
+                "question": "Czy zakładanie korony jest bolesne?",
+                "answer": "Standardowe leczenie polegające na założeniu korony może budzić niepokój u niektórych osób ze względu na obawę przed dyskomfortem. Jednak ponieważ dentysta znieczuli jamę ustną przed rozpoczęciem pracy, zabieg nie powinien być bolesny. Dotyczy to każdego etapu – od pierwszej wizyty po końcowe dopasowanie."
+            }
+        ]
+    },
+    "footer": {
+        "description": "Najwyższej jakości opieka stomatologiczna — Specjalista Pełnej Rehabilitacji i Implantologii",
+        "copyright": "Copyright © 2026 Dentfix Clinic - Wszelkie prawa zastrzeżone",
+        "address": "19 Mayıs, Halaskargazi Cd. No:170, 34360 Şişli/Stambuł",
+        "email": "info@dentfixturkey.com",
+        "phone": "+90 549 680 73 72"
+    },
+    "hospitalHotel": {
+        "clinicBadge": "KLINIKA",
+        "hotelBadge": "HOTEL",
+        "clinicSubtitle": "Nasze zabiegi stomatologiczne odbywają się w",
+        "clinicName": "Klinika Stomatologiczna Dentfix",
+        "hotelSubtitle": "Nasi goście zatrzymują się w",
+        "hotelName": "Istanbul Milord Hotel"
+    },
+    "packages": {
+        "title": "NASZE PAKIETY",
+        "getMoreInfo": "Uzyskaj więcej informacji",
+        "dentalImplants": {
+            "title": "Implanty stomatologiczne",
+            "features": [
+                "All On Four",
+                "All On Six",
+                "All On Eight",
+                "Three On Six",
+                "Pełna implantacja jamy ustnej"
+            ]
+        },
+        "dentalVeneers": {
+            "title": "Licówki stomatologiczne",
+            "features": [
+                "Licówki kompozytowe",
+                "Licówki porcelanowe",
+                "Licówki E-max",
+                "Licówki laminowane",
+                "Licówki bez szlifowania (Prepless)",
+                "Pełny zestaw licówek",
+                "Pełna implantacja jamy ustnej"
+            ]
+        },
+        "dentalCrowns": {
+            "title": "Korony dentystyczne",
+            "features": [
+                "Korony Celtra",
+                "Korony E-max",
+                "Korony cyrkonowe",
+                "Korony porcelanowe",
+                "Pełny zestaw koron"
+            ]
+        }
+    },
+    "publications": {
+        "title": "Publikowane techniki",
+        "titleLine2": "i badania kliniczne",
+        "description": "Badania kliniczne i opisy przypadków wspierające zaawansowane",
+        "descriptionLine2": "techniki implantologiczne i rehabilitacyjne.",
+        "ctaButton": "Bezpłatna konsultacja"
+    },
+    "rhinoplastyBeforeAfterYT": {
+        "title": "Metamorfozy uśmiechu: Wyniki Przed i Po",
+        "subtitle": "Poznaj historie pacjentów i metamorfozy ich uśmiechu."
+    },
+    "stats": {
+        "operations": {
+            "value": "+20000",
+            "label": "Tysiące udanych rehabilitacji stomatologicznych i zabiegów implantologicznych"
+        },
+        "years": {
+            "value": "30+",
+            "label": "Lata doświadczenia w rehabilitacji stomatologicznej i implantologii"
+        },
+        "recommend": {
+            "value": "95%",
+            "label": "pacjentów poleca Dentfix"
+        },
+        "satisfaction": {
+            "value": "98%",
+            "label": "Wskaźnik satysfakcji pacjentów po zabiegach stomatologicznych"
+        }
+    },
+    "testimonials": {
+        "title": "Historie pacjentów o",
+        "titleLine1": "Historie pacjentów o",
+        "titleLine2": "Metamorfozie i",
+        "titleLine3": "Pewności siebie",
+        "subtitle": "Kochamy naszych pacjentów, ale nie wierz nam na słowo. Zobacz, co o nas mówią!",
+        "ctaButton": "Zacznijmy",
+        "patientLabel": "Pacjent",
+        "reviews": [
+            {
+                "text": "Przeszłam pełną rehabilitację jamy ustnej w Dentfix Clinic. Od pierwszej konsultacji po końcową odbudowę zespół zapewniał jasne wyjaśnienia, spersonalizowany plan leczenia i doskonałą opiekę pooperacyjną. Moje implanty i protezy wyglądają naturalnie, są wygodne i przywróciły mi pewność siebie podczas jedzenia i uśmiechania się.",
+                "name": "Anna Müller",
+                "patient": "Pacjentka: Anna Müller",
+                "country": "DE"
+            },
+            {
+                "text": "Cały proces przebiegł sprawnie – dokładna diagnostyka, realistyczne terminy i uważne wsparcie pooperacyjne. Mosty na implantach szybko przywróciły mi funkcję żucia, a efekt estetyczny przeszedł moje oczekiwania. Organizacja podróży i zakwaterowania została obsłużona profesjonalnie.",
+                "name": "Hannah Schmidt",
+                "patient": "Pacjentka: Hannah Schmidt",
+                "country": "DE"
+            },
+            {
+                "text": "Zespół Dentfix Clinic łączy artyzm z doskonałością kliniczną. Uzupełnienia są precyzyjne i wyglądają naturalnie; zgryz jest idealny. Zespół zadbał o minimalny dyskomfort i udzielił jasnych instrukcji dotyczących pielęgnacji – moja pewność siebie i mowa uległy diametralnej poprawie.",
+                "name": "Emily Thompson",
+                "patient": "Pacjentka: Emily Thompson",
+                "country": "GB"
+            }
+        ]
+    },
+    "whyDoctor": {
+        "title": "Dlaczego warto wybrać Dentfix",
+        "titleLine1": "Dlaczego warto wybrać",
+        "titleLine2": "Dentfix Clinic do",
+        "titleLine3": "rehabilitacji stomatologicznej?",
+        "ctaButton": "Bezpłatna konsultacja",
+        "features": {
+            "expertise": {
+                "label": "Wiedza specjalistyczna:",
+                "text": "Specjalizacja w implantologii i pełnej rehabilitacji jamy ustnej z naciskiem na funkcję i estetykę."
+            },
+            "personalized": {
+                "label": "Indywidualne plany:",
+                "text": "Plany leczenia dostosowane do potrzeb klinicznych i oczekiwań każdego pacjenta."
+            },
+            "personalizedPlans": {
+                "label": "Indywidualne plany:",
+                "text": "Plany leczenia dostosowane do potrzeb klinicznych i oczekiwań każdego pacjenta."
+            },
+            "modern": {
+                "label": "Nowoczesny workflow:",
+                "text": "Cyfrowa diagnostyka i uzupełnienia CAD/CAM zapewniające przewidywalne efekty."
+            },
+            "modernWorkflow": {
+                "label": "Nowoczesny workflow:",
+                "text": "Cyfrowa diagnostyka i uzupełnienia CAD/CAM zapewniające przewidywalne efekty."
+            },
+            "aftercare": {
+                "label": "Opieka po zabiegu:",
+                "text": "Kompleksowa kontrola i dożywotnie wsparcie dla zdrowia Twoich zębów."
+            }
+        }
+    },
+    "whyTurkey": {
+        "title": "Dlaczego warto wybrać Turcję na leczenie stomatologiczne?",
+        "reasons": {
+            "affordable": {
+                "title": "Przystępne ceny:",
+                "description": "Turcja oferuje wysokiej jakości leczenie stomatologiczne w konkurencyjnych cenach w porównaniu do wielu krajów europejskich."
+            },
+            "affordablePrices": {
+                "title": "Przystępne ceny:",
+                "description": "Turcja oferuje wysokiej jakości leczenie stomatologiczne w konkurencyjnych cenach w porównaniu do wielu krajów europejskich."
+            },
+            "specialists": {
+                "title": "Doświadczeni specjaliści:",
+                "description": "Doświadczeni implantolodzy i technicy dentystyczni zapewniają przewidywalne i trwałe rezultaty."
+            },
+            "experiencedSpecialists": {
+                "title": "Doświadczeni specjaliści:",
+                "description": "Doświadczeni implantolodzy i technicy dentystyczni zapewniają przewidywalne i trwałe rezultaty."
+            },
+            "techniques": {
+                "title": "Zaawansowane techniki:",
+                "description": "Komputerowo sterowane wszczepianie implantów, odbudowy CAD/CAM i nowoczesne systemy implantologiczne zapewniają precyzję."
+            },
+            "advancedTechniques": {
+                "title": "Zaawansowane techniki:",
+                "description": "Komputerowo sterowane wszczepianie implantów, odbudowy CAD/CAM i nowoczesne systemy implantologiczne zapewniają precyzję."
+            },
+            "care": {
+                "title": "Kompleksowa opieka:",
+                "description": "Od diagnostyki po końcowe uzupełnienia i opiekę pooperacyjną – wszystko jest zaplanowane dla Twojego komfortu."
+            },
+            "comprehensiveCare": {
+                "title": "Kompleksowa opieka:",
+                "description": "Od diagnostyki po końcowe uzupełnienia i opiekę pooperacyjną – wszystko jest zaplanowane dla Twojego komfortu."
+            }
+        }
+    },
+    "thankYou": {
+        "title": "Dziękujemy",
+        "message": "Dziękujemy za wiadomość. Skontaktujemy się z Tobą tak szybko, jak to możliwe.",
+        "backToHome": "Powrót do strony głównej"
+    },
+    "cookieConsent": {
+        "title": "Ustawienia plików cookies",
+        "description": "Używamy plików cookies, aby poprawić komfort przeglądania strony, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookies.",
+        "accept": "Akceptuj wszystko",
+        "viewPreferences": "Preferencje"
+    },
+    "phoneValidation": {
+        "invalid": "Proszę podać prawidłowy numer telefonu",
+        "tooShort": "Numer telefonu jest za krótki",
+        "tooLong": "Numer telefonu jest za długi",
+        "invalidPrefix": "Format numeru telefonu jest nieprawidłowy dla tego kraju"
+    }
+}

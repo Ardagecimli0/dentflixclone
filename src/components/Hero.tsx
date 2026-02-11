@@ -4,12 +4,15 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
 import CountrySelect from "./CountrySelect";
+import { validatePhone, getMaxDigits } from "@/lib/phoneValidation";
 
 export default function Hero() {
   const [name, setName] = useState("");
   const [countryCode, setCountryCode] = useState("+90");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [phoneTouched, setPhoneTouched] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const { t } = useTranslation();
 
@@ -29,6 +32,7 @@ export default function Hero() {
         'implante-dental-en-turquia': '+34', // Spain
         'implant-dentaire-en-turquie': '+33', // France
         'impianto-dentale-in-turchia': '+39', // Italy
+        'implant-stomatologiczny-w-turcji': '+48', // Poland
       };
 
       if (slug && slugToCountry[slug]) {
@@ -37,8 +41,41 @@ export default function Hero() {
     }
   }, []);
 
+  // Validate phone whenever phone or countryCode changes
+  useEffect(() => {
+    if (phoneTouched && phone.length > 0) {
+      const result = validatePhone(countryCode, phone);
+      setPhoneError(result.valid ? '' : result.error);
+    } else {
+      setPhoneError('');
+    }
+  }, [phone, countryCode, phoneTouched]);
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.replace(/[^0-9]/g, ''); // only digits
+    setPhone(value);
+    if (!phoneTouched) setPhoneTouched(true);
+  };
+
+  const handleCountryCodeChange = (val: string) => {
+    setCountryCode(val);
+    // Re-validate existing phone with new country code
+    if (phone.length > 0) {
+      const result = validatePhone(val, phone);
+      setPhoneError(result.valid ? '' : result.error);
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Validate phone before submit
+    const phoneResult = validatePhone(countryCode, phone);
+    if (!phoneResult.valid) {
+      setPhoneError(phoneResult.error);
+      setPhoneTouched(true);
+      return;
+    }
 
     try {
       // Get the current language from the URL
@@ -53,6 +90,7 @@ export default function Hero() {
         'implante-dental-en-turquia': 'es',
         'implant-dentaire-en-turquie': 'fr',
         'impianto-dentale-in-turchia': 'it',
+        'implant-stomatologiczny-w-turcji': 'pl',
       };
 
       const locale = slugToLocale[slug] || 'en';
@@ -65,6 +103,7 @@ export default function Hero() {
         'es': 'Spanish',
         'fr': 'French',
         'it': 'Italian',
+        'pl': 'Polish',
       };
 
       const languageName = languageMap[locale] || 'English';
@@ -114,6 +153,10 @@ export default function Hero() {
       alert("There was an error submitting your form. Please try again.");
     }
   };
+
+  const phoneInputBorder = phoneError && phoneTouched
+    ? 'border-red-500 focus:border-red-500'
+    : 'border-gray-600 focus:border-[#25D366]';
 
   return (
     <section className="pt-24 pb-16 min-h-[85vh] relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #12171e 0%, #1a2028 50%, #12171e 100%)' }}>
@@ -165,7 +208,7 @@ export default function Hero() {
             {/* Free Consultation Button */}
             <div className="mt-6 flex justify-center">
               <a
-                href="https://wa.me/dentfix"
+                href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1eb956] px-8 py-4 rounded-full text-white font-bold transition-all duration-300 hover:scale-105 shadow-lg"
@@ -222,28 +265,34 @@ export default function Hero() {
                     required
                   />
                 </div>
-                <div className="flex gap-2">
-                  <CountrySelect
-                    value={countryCode}
-                    onChange={(val: string) => setCountryCode(val)}
-                    className="w-28 px-3 py-3 rounded-lg bg-[#1c2530] border border-gray-600 text-white focus:border-[#25D366] outline-none"
-                    dropdownClassName="bg-[#1c2530] border border-gray-600"
-                  />
-                  <div className="flex-1 relative">
-                    <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                      </svg>
-                    </div>
-                    <input
-                      type="tel"
-                      placeholder="Your Phone"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      className="w-full pl-12 pr-4 py-3 rounded-lg bg-[#1c2530] border border-gray-600 text-white focus:border-[#25D366] outline-none"
-                      required
+                <div>
+                  <div className="flex gap-2">
+                    <CountrySelect
+                      value={countryCode}
+                      onChange={handleCountryCodeChange}
+                      className="w-28 px-3 py-3 rounded-lg bg-[#1c2530] border border-gray-600 text-white focus:border-[#25D366] outline-none"
+                      dropdownClassName="bg-[#1c2530] border border-gray-600"
                     />
+                    <div className="flex-1 relative">
+                      <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                      </div>
+                      <input
+                        type="tel"
+                        placeholder={t('contactForm.phonePlaceholder')}
+                        value={phone}
+                        onChange={handlePhoneChange}
+                        maxLength={getMaxDigits(countryCode)}
+                        className={`w-full pl-12 pr-4 py-3 rounded-lg bg-[#1c2530] border ${phoneInputBorder} text-white outline-none transition-colors`}
+                        required
+                      />
+                    </div>
                   </div>
+                  {phoneError && phoneTouched && (
+                    <p className="text-red-400 text-sm mt-1 ml-1">{t(phoneError)}</p>
+                  )}
                 </div>
                 <div className="relative">
                   <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10">
@@ -282,7 +331,7 @@ export default function Hero() {
 
       {/* WhatsApp Butonu */}
       <a
-        href="https://wa.me/dentfix"
+        href="https://api.whatsapp.com/send/?phone=905496807372&text=Can+i+have+more+information+about+dental+treatments+and+prices%3F&type=phone_number&app_absent=0"
         target="_blank"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
       >

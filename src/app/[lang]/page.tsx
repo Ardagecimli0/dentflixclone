@@ -27,6 +27,7 @@ export async function generateStaticParams() {
         { lang: 'implante-dental-en-turquia' },        // Spanish
         { lang: 'implant-dentaire-en-turquie' },       // French
         { lang: 'impianto-dentale-in-turchia' },       // Italian
+        { lang: 'implant-stomatologiczny-w-turcji' },  // Polish
     ];
 }
 

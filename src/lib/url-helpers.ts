@@ -7,6 +7,7 @@ export const localeToSlug: Record<string, string> = {
     'es': 'implante-dental-en-turquia',
     'fr': 'implant-dentaire-en-turquie',
     'it': 'impianto-dentale-in-turchia',
+    'pl': 'implant-stomatologiczny-w-turcji',
 };
 
 export const slugToLocale: Record<string, string> = {
@@ -16,6 +17,7 @@ export const slugToLocale: Record<string, string> = {
     'implante-dental-en-turquia': 'es',
     'implant-dentaire-en-turquie': 'fr',
     'impianto-dentale-in-turchia': 'it',
+    'implant-stomatologiczny-w-turcji': 'pl',
 };
 
 export function getSlugFromPath(pathname: string): string {

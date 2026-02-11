@@ -7,6 +7,7 @@ import deDental from "../../public/locales/de-dental.json";
 import esDental from "../../public/locales/es-dental.json";
 import frDental from "../../public/locales/fr-dental.json";
 import itDental from "../../public/locales/it-dental.json";
+import plDental from "../../public/locales/pl-dental.json";
 import { extractLocaleFromSlug } from "./locale-utils";
 
 type TranslationData = typeof enDental;
@@ -29,6 +30,7 @@ const translations: Record<string, TranslationData> = {
     es: esDental,
     fr: frDental,
     it: itDental,
+    pl: plDental as unknown as TranslationData,
 };
 
 function getNestedValue(obj: unknown, path: string): unknown {

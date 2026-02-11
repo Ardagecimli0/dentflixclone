@@ -6,7 +6,7 @@
 export function extractLocaleFromSlug(slug: string): string {
     if (!slug || slug === '') return 'en';
 
-    const validLocales = ['en', 'tr', 'de', 'es', 'fr', 'it'];
+    const validLocales = ['en', 'tr', 'de', 'es', 'fr', 'it', 'pl'];
 
     // Eğer direkt dil kodu ise (en, tr, de, es, fr, it)
     if (validLocales.includes(slug)) {
@@ -21,6 +21,7 @@ export function extractLocaleFromSlug(slug: string): string {
         'implante-dental-en-turquia': 'es',
         'implant-dentaire-en-turquie': 'fr',
         'impianto-dentale-in-turchia': 'it',
+        'implant-stomatologiczny-w-turcji': 'pl',
     };
 
     if (slugToLocale[slug]) {
